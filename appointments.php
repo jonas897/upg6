@@ -15,7 +15,8 @@ include 'header.php';
 include 'config.php';
 
 $queryResult = $conn->query("SELECT * FROM bookings");
-	
+
+
 echo "<div class='center'>";
 echo "Today";
 echo "</div>";
